@@ -1,0 +1,43 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Encryption and Decryption Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <img src="https://cdn.pixabay.com/photo/2017/05/08/19/35/cyber-security-2296269_1280.jpg" alt="Encryption Tool Image" class="top-image">
+
+        <h1>CipherGuard</h1>
+
+        <textarea id="inputText" placeholder="Enter text to encrypt or decrypt"></textarea>
+        <br>
+        <button onclick="encrypt()">Encrypt</button>
+        <button onclick="decrypt()">Decrypt</button>
+        <br>
+        <textarea id="outputText" placeholder="Result will appear here" readonly></textarea>
+
+        <div id="datetime"></div>
+
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing simple yet powerful encryption and decryption tools to help you secure your data. Our mission is to make encryption accessible to everyone, ensuring your privacy and data security.</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2024 Encryption Tool. <a href="contact.html">Contact Us</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
